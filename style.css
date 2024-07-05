@@ -30,7 +30,7 @@ article {
   flex-direction: row;
   justify-content: center;
   border-radius: 10px;
-  box-shadow: 0 5px 30px hsla(212, 69%, 72%, 0.211);
+  box-shadow: 0 5px 30px hsla(214, 17%, 51%, 0.534);
 }
 .img_section {
   object-fit: cover;
