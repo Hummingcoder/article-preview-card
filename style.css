@@ -20,6 +20,7 @@ main {
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  padding-top: 4rem;
 }
 article {
   width: 740px;
@@ -29,7 +30,7 @@ article {
   flex-direction: row;
   justify-content: center;
   border-radius: 10px;
-  box-shadow: 0 5px 20px var(--GrayishBlue);
+  box-shadow: 0 5px 30px hsla(212, 69%, 72%, 0.211);
 }
 .img_section {
   object-fit: cover;
@@ -77,22 +78,19 @@ article {
   width: 40px;
   border-radius: 100%;
 }
+.links p {
+  letter-spacing: 4px;
+}
 .btn {
   width: 30px;
   height: 30px;
   border-radius: 100%;
   border: none;
 
-  background: var(--GrayishBlue);
+  background: var(--LightGrayBlue);
   transition: ease-in-out 0.2s;
   cursor: pointer;
   z-index: 99;
-}
-.btn img {
-  filter: brightness(300%);
-}
-.btn:hover {
-  background: var(--DarkBlue);
 }
 
 .links {
